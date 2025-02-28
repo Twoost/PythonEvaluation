@@ -22,9 +22,9 @@ def verifier_mot_de_passe(mot_de_passe):
         return False # on retourne le false 
     chiffre = False
     for lettre in MotdePasse: # savoir si les chiffres sont dans le mot de passe
-        if lettre.isdigit():
+        if lettre.isdigit(): # verifie si c'est un chiffre
             chiffre = True # si oui on retourne true 
-            break
+            break # fin de la boucle et on retourne le resultat
     return chiffre
 
 MotdePasse = input("Entrez votre mot de passe : ")
