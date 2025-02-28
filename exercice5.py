@@ -8,3 +8,6 @@
 # 4. Si le montant est valide, affichez **le nombre de billets** de **50€, 20€ et 10€** 
 # nécessaires pour atteindre ce montant. 
 # 5. Répétez la demande tant que l'utilisateur ne rentre pas un montant valide. 
+
+Achat = (int(input(f"Saisir le montant à retirer")))
+    if modulo %= 10:
