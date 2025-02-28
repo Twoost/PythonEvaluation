@@ -18,12 +18,12 @@
 #     print("Au moins 8 caractères & 1 chiffre")
 
 def verifier_mot_de_passe(mot_de_passe):
-    if len(MotdePasse) < 8:
-        return False
+    if len(MotdePasse) < 8:  # pour verif les 8 caractère
+        return False # on retourne le false 
     chiffre = False
-    for lettre in MotdePasse:
+    for lettre in MotdePasse: # savoir si les chiffres sont dans le mot de passe
         if lettre.isdigit():
-            chiffre = True
+            chiffre = True # si oui on retourne true 
             break
     return chiffre
 
